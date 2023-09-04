@@ -8,7 +8,7 @@ export default function Aparelhos(){
             <h1>Aparelhos</h1>
             {listaAparelhos.map( aparelho => (
                 <div key ={aparelho.id}>
-                    <Link to={`/Aparlhos/Visualizar/${aparelho.id}`}>
+                    <Link to={`/Aparelhos/Visualizar/${aparelho.id}`}>
                         Visualizar produto: {aparelho.nome}
                     </Link>
                 </div>
