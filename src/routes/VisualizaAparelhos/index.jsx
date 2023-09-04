@@ -16,6 +16,9 @@ export default function VisualizaAparelhos(){
             <main class = 'celular'>
                 <h1>Celular</h1>
                 <img src= {celular} alt="Celular"/>
+                <p>Nome: {list[0].nome}
+                   <br></br>Preço: {list[0].preco}R$
+                </p>
             </main>
     
     )
@@ -23,7 +26,9 @@ export default function VisualizaAparelhos(){
       return(  
         <main class = 'Tablet'>
             <h1>Tablet</h1>
-            <img src= {tablet} alt="Tablet" />
+            <img src= {tablet} alt="Tablet"/>
+            <p>Nome: {list[1].nome}
+            <br></br>Preço: {list[1].preco}R$</p>
         </main>
       )
     }else if(id == 3){
@@ -31,6 +36,8 @@ export default function VisualizaAparelhos(){
             <main class = 'Notebook'>
                 <h1>Notebook</h1>
                 <img src= {notebook} alt="Notebook" />
+                <p>Nome: {list[2].nome}
+            <br></br>Preço: {list[2].preco}R$</p>
             </main>
           )
     }else if(id == 4){
@@ -38,6 +45,8 @@ export default function VisualizaAparelhos(){
             <main class = 'Pc'>
                 <h1>PC</h1>
                 <img src={pc} alt="Pc" />
+                <p>Nome: {list[3].nome}
+            <br></br>Preço: {list[3].preco}R$</p>
             </main>
           )
     }else if(id == 5){
@@ -45,6 +54,8 @@ export default function VisualizaAparelhos(){
             <main class = 'Micro'>
                 <h1>Micro-ondas</h1>
                 <img src={micro_ondas} alt="Micro-Ondas" />
+                <p>Nome: {list[4].nome}
+            <br></br>Preço: {list[4].preco}R$</p>
             </main>
           )
     }
