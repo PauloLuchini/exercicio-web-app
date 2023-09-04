@@ -15,7 +15,7 @@ export default function VisualizaAparelhos(){
     return(
             <main class = 'celular'>
                 <h1>Celular</h1>
-                <img src= {celular} alt="Celular" />
+                <img src= {celular} alt="Celular"/>
             </main>
     
     )

@@ -56,3 +56,8 @@ nav{
   align-items: center; height: 5vh;
   background-color: darkblue;
 }
+
+img {
+  max-width: 15vw;
+  max-height: 15vw;
+ }
