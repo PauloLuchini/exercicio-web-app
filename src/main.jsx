@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, Navigate} from 'react-router-dom'
 import Home from './routes/home/index.jsx'
 import Aparelhos from './routes/Aparelhos/index.jsx'
 import VisualizaAparelhos from './routes/VisualizaAparelhos/index.jsx'
@@ -25,6 +25,10 @@ const router =  createBrowserRouter([
       {
         path: "/Aparelhos/Visualizar/:id",
         element: <VisualizaAparelhos/>
+      },
+      {
+        path: "/antiga",
+        element: <Navigate to="/"/>
       }
     ]
   }
